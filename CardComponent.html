@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Card Component</title>
+	<link rel="stylesheet" type="text/css" href="styles/cardComponent.css">
+</head>
+<body>
+	<div class="card">
+		<img src="images/dog.jpg" alt="dog" style="width: 100%;">
+		<div class="container">
+			<div class="card-title">Beach Day</div>
+			<div class="card-sub-title">RUFUS THE DOG</div>
+			<div class="card-date">
+				<span>Modified</span>
+				<span id="mDate"></span>
+				<span>by bfrost</span>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	let date = new Date(document.lastModified).toLocaleDateString();
+	document.getElementById('mDate').innerHTML = date;
+</script>
+</html>

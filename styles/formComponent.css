@@ -1,0 +1,40 @@
+.form-container {
+	margin-top: 40px;
+	margin-left: 40px;
+	font-family: sans-pro;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+: :placeholder{
+	color: #737373;
+}
+
+.form-control>input {
+	width: 40%;
+	height: 36px;
+}
+
+.form-control>label {
+	color: #1A1A1A;
+}
+
+.form-control {
+	margin-top: 24px;
+}
+
+.save {
+	margin-top: 32px;
+	width: 100%;
+}
+
+button {
+	border-color: #0063E6;
+    border-radius: 4px;
+    border-width: thin;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #0063E6;
+    height: 36px;
+    width: 41%;
+}
